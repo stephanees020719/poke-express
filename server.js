@@ -17,7 +17,7 @@
       // render the Index.jsx file
       res.render('Index', { pokemon });
     });
-     
+     //pokemon id 
     app.get('/pokemon/:id', (req, res) => {
       // second param of the render method must be an object
       res.render('Show', {
